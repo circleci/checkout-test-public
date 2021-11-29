@@ -5,7 +5,7 @@ version: 2.1
 parameters:
   build_agent:
     type: string
-    default: ''
+    default: '0.0.92498-dev-6094d438'
 
 build_agent: "<< pipeline.parameters.build_agent >>"
 # Define a job to be invoked later in a workflow.
